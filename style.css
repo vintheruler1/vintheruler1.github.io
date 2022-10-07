@@ -141,6 +141,18 @@ body{
     border-color: #B721FF;
     transition: all 0.5s ease-in-out;
 }
+.btn.btn-blue{
+    background: #0096FF;
+    color: #fff;
+    border-color: #B721FF;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-green{
+    background: #0CFF00;
+    color: #fff;
+    border-color: #B721FF;
+    transition: all 0.5s ease-in-out;
+}
 .btn.btn-pink:hover{
     background: transparent;
     border-color: #fff;
