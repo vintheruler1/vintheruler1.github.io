@@ -263,7 +263,7 @@ footer .row:first-child a {
   &:active {color: #eee;}
 }
 footer .row:last-child {padding: .5em;}
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 971px) {
   footer .col-4 {
     width: 49%;
     text-align: center;
