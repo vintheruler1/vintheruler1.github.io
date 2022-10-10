@@ -1,1 +1,1 @@
-# https://www.vintheruler1.github.io
+# https://vintheruler1.github.io
