@@ -62,7 +62,7 @@ export default function Home() {
               <AiFillGithub/>
             </a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-8 bottom-22 overflow-hidden">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 py-10 bottom-22 overflow-hidden">
             <Image src={deved} layout="fill" objectFit="cover"/>
           </div>
         </section>
@@ -76,7 +76,7 @@ export default function Home() {
           </div>
 
           <div className="lg: flex gap-2">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-500">
+            <div className="text-center shadow-lg p-9 rounded-xl my-10 dark:bg-gray-500">
               <Image src={code} width={100} height={100}/>
               <h3 className = "text-lg font-medium pt-8 pb-2">Discord Bots</h3>
               <p className = "py-2">
@@ -88,7 +88,7 @@ export default function Home() {
               <p className="text-black py-1">Nextcord</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-500">
+            <div className="text-center shadow-lg p-9 rounded-xl my-10 dark:bg-gray-500">
               <Image src={design} width={100} height={100}/>
               <h3 className = "text-lg font-medium pt-8 pb-2">Websites</h3>
               <p className = "py-2">
@@ -100,7 +100,7 @@ export default function Home() {
               <p className="text-black py-1">Tailwind CSS</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-500">
+            <div className="text-center shadow-lg p-9 rounded-xl my-10 dark:bg-gray-500">
               <Image src={consulting} width={100} height={100}/>
               <h3 className = "text-lg font-medium pt-8 pb-2">AI/Machine Learning</h3>
               <p className = "py-2">
