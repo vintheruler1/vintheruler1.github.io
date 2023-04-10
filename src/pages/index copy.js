@@ -1,5 +1,6 @@
 import Head from "next/head";
 import {BsFillMoonStarsFill} from "react-icons/bs";
+import {BsFillSunFill} from "react-icons/bs";
 import {AiFillTwitterCircle, AiFillMail, AiFillGithub} from "react-icons/ai";
 import Image from "next/image";
 import deved from "public/pfp.jpg";
@@ -14,9 +15,13 @@ import web5 from "public/web5.png";
 import web6 from "public/web6.png";
 import {useState} from "react";
 
+var icon = <BsFillMoonStarsFill className="cursor-pointer text-2xl dark:fill-white"/>;
 
 export default function Home() {
   const [darkMode, setdarkMode] = useState(false);
+  if (darkMode) {
+    icon = <BsFillSunFill className="cursor-pointer text-2xl dark:fill-black"/>;
+  }
   return (
     <div className={darkMode ? "dark": ""}>
       <Head>
@@ -31,7 +36,7 @@ export default function Home() {
             <h1 className="text-xl dark:text-white">Vinesh</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill onClick={() => setdarkMode(!darkMode)} className="cursor-pointer text-2xl dark:fill-white"/>
+                {icon}
                 </li>
               <li>
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" 
@@ -51,18 +56,18 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center gap-16 text-black">
             <a href="https://twitter.com/Vintheruler1R" target="_blank">
-              <AiFillTwitterCircle className="dark:fill-white"/>
+              <AiFillTwitterCircle />
             </a> 
 
             <a href="mailto:vramroop6@gmail.com" target="_blank">
-              <AiFillMail className="dark:fill-white"/>
+              <AiFillMail/>
             </a>
 
             <a href="https://github.com/vintheruler1" target="_blank">
-              <AiFillGithub className="dark:fill-white"/>
+              <AiFillGithub/>
             </a>
           </div>
-          <div className="relative mx-auto my-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 py-10 bottom-22 overflow-hidden">
             <Image src={deved} layout="fill" objectFit="cover"/>
           </div>
         </section>
