@@ -32,12 +32,20 @@ export default function Home() {
             <h1 className="text-xl dark:text-white">Vinesh</h1>
             <ul className="flex items-center">
               <li>
-                <BsLightbulb onClick={() => setdarkMode(!darkMode)} className="cursor-pointer text-2xl dark:fill-white"/>
-                </li>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
+                href="#">Projects</a>
+              </li>
+              <li>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
+                href="#">Contact</a>
+              </li>
               <li>
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
                 href="#">Resume</a>
-                </li>
+              </li>
+              <li>
+                <BsLightbulb onClick={() => setdarkMode(!darkMode)} className="cursor-pointer text-2xl ml-8 dark:fill-white"/>
+              </li>
             </ul>
           </nav>
           <div className="text-center p-10">
