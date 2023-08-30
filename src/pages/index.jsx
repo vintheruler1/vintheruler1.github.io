@@ -1,18 +1,10 @@
 import Head from "next/head";
-import {BsFillMoonStarsFill} from "react-icons/bs";
-import { BsLightbulb } from "react-icons/bs";
 import {AiFillTwitterCircle, AiFillMail, AiFillGithub} from "react-icons/ai";
 import Image from "next/image";
 import deved from "public/pfp.jpg";
 import design from "public/design.png";
 import code from "public/code.png";
 import consulting from "public/consulting.png";
-import web1 from "public/web1.png";
-import web2 from "public/web2.png";
-import web3 from "public/web3.png";
-import web4 from "public/web4.png";
-import web5 from "public/web5.png";
-import web6 from "public/web6.png";
 import {useState} from "react";
 
 
@@ -33,18 +25,22 @@ export default function Home() {
             <ul className="flex items-center">
               <li>
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
-                href="#">Projects</a>
+                href="./#">Home</a>
               </li>
               <li>
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
-                href="#">Contact</a>
+                href="./projects">Projects</a>
               </li>
               <li>
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
-                href="#">Resume</a>
+                href="./resume">Resume</a>
               </li>
               <li>
-                <BsLightbulb onClick={() => setdarkMode(!darkMode)} className="cursor-pointer text-2xl ml-8 dark:fill-white"/>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
+                href="./contact">Contact</a>
+              </li>
+              <li>
+                {/* <BsLightbulb onClick={() => setdarkMode(!darkMode)} className="cursor-pointer text-2xl ml-8 dark:fill-white"/> */}
               </li>
             </ul>
           </nav>
@@ -114,7 +110,7 @@ export default function Home() {
               </p>
               <h4 className="text-lg py-4 text-teal-600">Tools I use</h4>
               <p className="text-black py-1">Python</p>
-              <p className="text-black py-1">Tensorflow</p>
+              <p className="text-black py-1">PyTorch</p>
 
               <p classname="text-sm text-black"></p>
             </div>
@@ -122,7 +118,7 @@ export default function Home() {
 
         </section>
 
-        <section>
+        {/* <section>
         <div>
           <h3 className="text-3xl py-1">Some of my work</h3>
         </div>
@@ -137,7 +133,7 @@ export default function Home() {
             <Image src={web3} className="rounded-lg object-cover" width={'100%'} height={"100%"} layout="responsive"/>
           </div>
         </div>
-        </section>
+        </section> */}
       </main>
     </div>
   );
