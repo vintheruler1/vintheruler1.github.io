@@ -52,13 +52,7 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 mt-2 mb-5 text-black">
-            <a href="https://twitter.com/Vintheruler1R" target="_blank">
-              <AiFillTwitterCircle className="dark:fill-white"/>
-            </a> 
-
-            <a href="mailto:vramroop6@gmail.com" target="_blank">
-              <AiFillMail className="dark:fill-white"/>
-            </a>
+        
 
             <a href="https://github.com/vintheruler1" target="_blank">
               <AiFillGithub className="dark:fill-white"/>
