@@ -1,7 +1,7 @@
 import Head from "next/head";
 import {AiFillTwitterCircle, AiFillMail, AiFillGithub} from "react-icons/ai";
 import Image from "next/image";
-import deved from "public/pfp.jpg";
+import deved from "public/pfp.png";
 import design from "public/design.png";
 import code from "public/code.png";
 import consulting from "public/consulting.png";
@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title className="dark:bg-white">Vinesh Ramroop Portfolio</title>
         <meta name="description" content="Vinesh Ramroop's portfolio." />
-        <link rel="icon" href="/pfp.jpg" />
+        <link rel="icon" href="/pfp.png" />
       </Head>
 
       <main className="bg-white px-10 md:px-20 lg:40px dark:bg-black">
