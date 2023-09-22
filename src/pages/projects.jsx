@@ -23,21 +23,37 @@ export default function Home() {
           <nav className="py-8 mb-12 flex justify-between">
             <h1 className="text-xl dark:text-white">Vinesh</h1>
             <ul className="flex items-center">
-            <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
-                href="./#">Home</a>
+              <li>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  href="./#"
+                >
+                  Home
+                </a>
               </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
-                href="./projects">Projects</a>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  href="./projects"
+                >
+                  Projects
+                </a>
               </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
-                href="./resume">Resume</a>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  href="./resume"
+                >
+                  Resume
+                </a>
               </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"  
-                href="./contact">Contact</a>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                  href="./contact"
+                >
+                  Contact
+                </a>
               </li>
               <li>
                 {/* <BsLightbulb onClick={() => setdarkMode(!darkMode)} className="cursor-pointer text-2xl ml-8 dark:fill-white"/> */}
