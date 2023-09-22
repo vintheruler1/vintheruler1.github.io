@@ -71,19 +71,8 @@ export default function Home() {
               A person who likes programming and learning new things.
             </p>
           </div>
-<<<<<<< HEAD
-          <div className="text-3xl flex justify-center gap-16 mt-2 mb-5 text-black">
-            <a href="https://twitter.com/Vintheruler1R" target="_blank">
-              <AiFillTwitterCircle className="dark:fill-white" />
-            </a>
-
-            <a href="mailto:vramroop6@gmail.com" target="_blank">
-              <AiFillMail className="dark:fill-white" />
-            </a>
-=======
           <div className="text-5xl flex justify-center gap-16 mt-2 mb-5 text-black">
         
->>>>>>> 23a19727c85e5a53310403c300dfd56891d3995c
 
             <a href="https://github.com/vintheruler1" target="_blank">
               <AiFillGithub className="dark:fill-white" />
